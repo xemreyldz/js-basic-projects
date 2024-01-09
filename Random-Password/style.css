@@ -1,0 +1,83 @@
+/* Tüm HTML elementlerine uygulanan temel stil ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+ }
+ 
+ /* Sayfa genelindeki body elementi için stil ayarları */
+ body {
+     background: #002339; /* Arka plan rengi */
+     color: #fff; /* Metin rengi */
+ }
+ 
+ /* İçerikleri saran ana kapsayıcı için stil ayarları */
+ .container {
+    margin: 12%; /* Dış kenar boşluğu */
+    width: 90%; /* Genişlik */
+    max-width: 700px; /* Maksimum genişlik */
+ }
+ 
+ /* Kullanıcıya parolanın gösterildiği alandaki stil ayarları */
+ .display {
+     width: 100%;
+     margin-top: 50px;
+     margin-bottom: 30px;
+     background: #fff; /* Arka plan rengi */
+     color: #333; /* Metin rengi */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 26px 20px; /* İç içe boşluk */
+     border-radius: 5px; /* Kenar yuvarlama */
+ }
+ 
+ /* Başlık için stil ayarları */
+ .container h1 {
+     font-weight: 500; /* Yazı kalınlığı */
+     font-size: 45px; /* Yazı boyutu */
+ }
+ 
+ /* Başlık içindeki span elementi için stil ayarları */
+ .container h1 span {
+     color: #019f55; /* Metin rengi */
+     border-bottom: 4px solid #019f55; /* Alt çizgi rengi ve kalınlığı */
+     padding-bottom: 7px; /* Alt çizgi ile metin arasındaki boşluk */
+ }
+ 
+ /* Kopyalama butonu için stil ayarları */
+ .display img {
+     width: 30px; /* Resim genişliği */
+     cursor: pointer; /* İmleç tipi */
+ }
+ 
+ /* Parola giriş kutusu için stil ayarları */
+ .display input {
+     border: 0; /* Kenarlık yok */
+     outline: 0; /* Kenarlık odaklandığında gösterilmez */
+     font-size: 24px; /* Yazı boyutu */
+ }
+ 
+ /* Parola üretme butonu için stil ayarları */
+ .container button img {
+     width: 28px; /* Resim genişliği */
+     margin-right: 10px; /* Sağa olan iç içe boşluk */
+ }
+ 
+ /* Genel buton stil ayarları */
+ .container button {
+     border: 0; /* Kenarlık yok */
+     outline: 0; /* Kenarlık odaklandığında gösterilmez */
+     background: #019f55; /* Arka plan rengi */
+     color: #fff; /* Metin rengi */
+     font-size: 22px; /* Yazı boyutu */
+     font-weight: 300px; /* Yazı kalınlığı */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 16px 26px; /* İç içe boşluk */
+     border-radius: 5px; /* Kenar yuvarlama */
+     cursor: pointer; /* İmleç tipi */
+ }
+ 
